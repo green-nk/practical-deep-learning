@@ -1,2 +1,6 @@
 # Static files
 _backup
+
+# Quarto
+/.quarto/
+/_site/
