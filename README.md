@@ -26,7 +26,7 @@ First, by watching a lecture on [Practical Deep Learning for Coders](https://cou
 
 Next, we try it out! Doing an experiment on lecture notebooks and reading their documentation to gain more understanding. This will help strengthen your knowledge together with hands-on experience.
 
-After that, start quizzing yourself, by clearing outputs first then running a notebook in [Deep Learning for Coders with fastai & PyTorch Book](https://course.fast.ai/Resources/book.html) from scratch. It's an open-book quiz though so you can ask for help like browsing through a documentation or posting on the forum. Moreover, while you are running it, document some key ideas apart from the lecture along the way like practical tips.
+After that, start quizzing yourself, by clearing outputs first then running a notebook in [Deep Learning for Coders with fastai & PyTorch Book](https://course.fast.ai/Resources/book.html) from scratch. It's an open-book quiz though so you can ask for help like browsing through a documentation or posting on the forum. Moreover, while you are running it, document some key ideas in the book apart from the lecture along the way.
 
 Then, apply your understanding with mini-project. Find interesting dataset first. The best places to start are [Kaggle Datasets](https://www.kaggle.com/datasets) and [Hugging Face Datasets](https://huggingface.co/datasets). Doing this will help you gain even more experience and make sure you have done something related to your field, driving you to learn deeper.
 
