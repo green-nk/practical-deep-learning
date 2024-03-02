@@ -6,7 +6,7 @@ title: Practical Deep Learning
 
 This is knowledge repository for documenting what I have learned and projects I have done through the course. Besides, this part acts as a valuable guide to my way of learning things from the lecturer in [Lesson 0 - Practical Deep Learning for Coders (fast.ai)](https://www.youtube.com/watch?v=gGxe2mN3kAg).
 
-## How to learn deep learning like a skilled practioner?
+## How to learn deep learning like a skilled practitioner?
 
 > Before you want to deep dive into something, try it in a practical way. It will get you there faster.
 
