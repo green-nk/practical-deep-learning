@@ -2,7 +2,40 @@ project:
   type: website
 
 website:
-  title: Practical Deep Learning
+  title: Practical Deep Learning for Coders
+  page-navigation: true
+
+  sidebar:
+    style: "floating"
+    border: true
+    align: center
+    contents:
+      - index.qmd
+      - section: "Lectures"
+        contents:
+          - section: "DL in practice"
+            contents:
+              - lectures/dl-in-practice/01-pre-trained-model.ipynb
+              - lectures/dl-in-practice/01-deep-learning-in-practice.ipynb
+      - section: "Projects"
+        contents:
+          - projects/horapa-vs-kaprao.ipynb
+    tools:
+      - icon: github
+        href: https://github.com/green-nk/practical-deep-learning
+        text: Source code
+  search:
+    type: textbox
+    show-item-context: tree
+    
+  page-footer:
+    border: true
+    left: |
+      Copyright &copy; 2024, Nakarin Korsuwan\
+      Made with [Quarto](https://quarto.org/)
+    right:
+      - icon: github
+        href: https://github.com/green-nk/practical-deep-learning
 
 format:
   html:
