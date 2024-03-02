@@ -1,0 +1,47 @@
+---
+title: Practical Deep Learning
+---
+
+## Introduction
+
+This is knowledge repository for documenting what I have learned and projects I have done through the course. Besides, this part acts as a valuable guide to my way of learning things from the lecturer in [Lesson 0 - Practical Deep Learning for Coders (fast.ai)](https://www.youtube.com/watch?v=gGxe2mN3kAg).
+
+## How to learn deep learning like a skilled practioner?
+
+> Before you want to deep dive into something, try it in a practical way. It will get you there faster.
+
+So, this is an overview of how practitioner learns things.
+
+```{mermaid}
+flowchart LR;
+    A[Passive Learning] --> B[Active Learning - Experiment] --> C[Active Learning - Quiz] --> D[Active Learning - Project] --> E[Active Learning - Sharing];
+```
+
+You will see that mostly 80% of the time is **Active Learning!**
+
+Passive learning can be watching lectures or reading articles/text books. But the key important here is you need to quickly get **hands-on** whatever you are learning after you understand at least 20% of the content.
+
+So, the more specificed workflow to this course should look like this:
+
+```{mermaid}
+flowchart LR;
+    A[Watch Lecture] --> B[Run notebooks and Experiment] --> C[Start from scratch] --> D[Try with your own data] --> E[Document and Sharing];
+```
+
+First, by watching a lecture on [Practical Deep Learning for Coders](https://course.fast.ai/), we are going to understand the main concepts or jargons needed on the lesson.
+
+Next, we try it out! Doing an experiment on lecture notebooks and reading their documentation to gain more understanding. This will help strengthen your knowledge together with giving you hands-on experience.
+
+After that, start quizzing yourself, by clearing outputs first then running a notebook in [Deep Learning for Coders with fastai & PyTorch Book](https://course.fast.ai/Resources/book.html) from scratch. It's an open-book quiz though so you can ask for help like browsing through a documentation or posting questions on the forum. Moreover, while you are running it, document some key ideas in the book apart from the lecture along the way.
+
+Then, apply your understanding with mini-project. Find interesting dataset first. The best places to start are [Kaggle Datasets](https://www.kaggle.com/datasets) and [Hugging Face Datasets](https://huggingface.co/datasets). Doing this will help you gain even more experience and make sure you have done something related to your field, driving you to learn deeper.
+
+Last, document your work is very important. sharing is neccessary. You can do it in parallel while you studying passively and keep updating it throughout your learning. Doing these will help you retain information over time. They also assist in building your profile to the public — Showing others what you have done in the past through your work. These simple steps should get you started:
+
+* Documenting with *Quarto*. It is suitable for notebook documentation. Use [Quarto Basic](https://github.com/green-nk/quarto-basic) as a guide to start documenting.
+* Hosting your documentation as a website on *GitHub Pages*.
+* Sharing it on social media like *Twitter* or *Linkedin*.
+
+:::{.callout-tip}
+It can be easy to get lost sometimes. Keep these 3 things in mind: **Focus on your end-goal**, **Continue gaining your understanding in a bite-size by doing things** and **Be tenacious**.
+:::
