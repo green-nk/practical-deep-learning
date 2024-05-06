@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://green-nk.github.io/practical-deep-learning/lectures/dl-in-practice/01-pre-trained-model.html</loc>
-    <lastmod>2024-03-04T08:45:45.526Z</lastmod>
-  </url>
-  <url>
-    <loc>https://green-nk.github.io/practical-deep-learning/projects/horapa-vs-kaprao.html</loc>
-    <lastmod>2024-03-04T08:45:45.534Z</lastmod>
-  </url>
-  <url>
     <loc>https://green-nk.github.io/practical-deep-learning/index.html</loc>
-    <lastmod>2024-03-04T08:45:45.518Z</lastmod>
+    <lastmod>2024-05-06T06:51:09.978Z</lastmod>
+  </url>
+  <url>
+    <loc>https://green-nk.github.io/practical-deep-learning/CHANGELOG.html</loc>
+    <lastmod>2024-05-06T06:51:09.978Z</lastmod>
   </url>
   <url>
     <loc>https://green-nk.github.io/practical-deep-learning/lectures/dl-in-practice/01-deep-learning-in-practice.html</loc>
-    <lastmod>2024-03-04T08:45:45.518Z</lastmod>
+    <lastmod>2024-05-06T06:51:09.982Z</lastmod>
+  </url>
+  <url>
+    <loc>https://green-nk.github.io/practical-deep-learning/lectures/dl-in-practice/01-pre-trained-model.html</loc>
+    <lastmod>2024-05-06T06:51:09.986Z</lastmod>
+  </url>
+  <url>
+    <loc>https://green-nk.github.io/practical-deep-learning/projects/horapa-vs-kaprao.html</loc>
+    <lastmod>2024-05-06T06:51:09.998Z</lastmod>
   </url>
 </urlset>

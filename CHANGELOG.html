@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Practical Deep Learning for Coders - Practical Deep Learning</title>
+<title>Practical Deep Learning for Coders</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lectures/dl-in-practice/01-pre-trained-model.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,10 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -86,7 +81,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Practical Deep Learning</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Practical Deep Learning for Coders
+      </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -117,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Practical Deep Learning</span></a>
   </div>
 </li>
@@ -182,97 +179,84 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#how-to-learn-deep-learning-like-a-skilled-practitioner" id="toc-how-to-learn-deep-learning-like-a-skilled-practitioner" class="nav-link" data-scroll-target="#how-to-learn-deep-learning-like-a-skilled-practitioner">How to learn deep learning like a skilled practitioner?</a></li>
+  <li><a href="#changelog" id="toc-changelog" class="nav-link active" data-scroll-target="#changelog">Changelog</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">[0.0.1] - 2024-03-04</a>
+  <ul class="collapse">
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">🚀 Features</a></li>
+  <li><a href="#bug-fixes" id="toc-bug-fixes" class="nav-link" data-scroll-target="#bug-fixes">🐛 Bug Fixes</a></li>
+  <li><a href="#refactor" id="toc-refactor" class="nav-link" data-scroll-target="#refactor">🚜 Refactor</a></li>
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">📚 Documentation</a></li>
+  <li><a href="#testing" id="toc-testing" class="nav-link" data-scroll-target="#testing">🧪 Testing</a></li>
+  <li><a href="#miscellaneous-tasks" id="toc-miscellaneous-tasks" class="nav-link" data-scroll-target="#miscellaneous-tasks">⚙️ Miscellaneous Tasks</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Practical Deep Learning</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>This is knowledge repository for documenting what I have learned and projects I have done through the course. Besides, this part acts as a valuable guide to my way of learning things from the lecturer in <a href="https://www.youtube.com/watch?v=gGxe2mN3kAg">Lesson 0 - Practical Deep Learning for Coders (fast.ai)</a>.</p>
-</section>
-<section id="how-to-learn-deep-learning-like-a-skilled-practitioner" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-learn-deep-learning-like-a-skilled-practitioner">How to learn deep learning like a skilled practitioner?</h2>
-<blockquote class="blockquote">
-<p>Before you want to deep dive into something, try it in a practical way. It will get you there faster.</p>
-</blockquote>
-<p>So, this is an overview of how practitioner learns things.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR;
-    A[Passive Learning] --&gt; B[Active Learning - Experiment] --&gt; C[Active Learning - Quiz] --&gt; D[Active Learning - Project] --&gt; E[Active Learning - Sharing];
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>You will see that mostly 80% of the time is <strong>Active Learning!</strong></p>
-<p>Passive learning can be watching lectures or reading articles/text books. But the key important here is you need to quickly get <strong>hands-on</strong> whatever you are learning after you understand at least 20% of the content.</p>
-<p>So, the more specificed workflow to this course should look like this:</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR;
-    A[Watch Lecture] --&gt; B[Run notebooks and Experiment] --&gt; C[Start from scratch] --&gt; D[Try with your own data] --&gt; E[Document and Sharing];
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>First, by watching a lecture on <a href="https://course.fast.ai/">Practical Deep Learning for Coders</a>, we are going to understand the main concepts or jargons needed on the lesson.</p>
-<p>Next, we try it out! Doing an experiment on lecture notebooks and reading their documentation to gain more understanding. This will help strengthen your knowledge together with giving you hands-on experience.</p>
-<p>After that, start quizzing yourself, by clearing outputs first then running a notebook in <a href="https://course.fast.ai/Resources/book.html">Deep Learning for Coders with fastai &amp; PyTorch Book</a> from scratch. It’s an open-book quiz though so you can ask for help like browsing through a documentation or posting questions on the forum. Moreover, while you are running it, document some key ideas in the book apart from the lecture along the way.</p>
-<p>Then, apply your understanding with mini-project. Find interesting dataset first. The best places to start are <a href="https://www.kaggle.com/datasets">Kaggle Datasets</a> and <a href="https://huggingface.co/datasets">Hugging Face Datasets</a>. Doing this will help you gain even more experience and make sure you have done something related to your field, driving you to learn deeper.</p>
-<p>Last, document your work is very important. sharing is neccessary. You can do it in parallel while you studying passively and keep updating it throughout your learning. Doing these will help you retain information over time. They also assist in building your profile to the public — Showing others what you have done in the past through your work. These simple steps should get you started:</p>
+<section id="changelog" class="level1">
+<h1>Changelog</h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">[0.0.1] - 2024-03-04</h2>
+<section id="features" class="level3">
+<h3 class="anchored" data-anchor-id="features">🚀 Features</h3>
 <ul>
-<li>Documenting with <em>Quarto</em>. It is suitable for notebook documentation. Use <a href="https://github.com/green-nk/quarto-basic">Quarto Basic</a> as a guide to start documenting.</li>
-<li>Hosting your documentation as a website on <em>GitHub Pages</em>.</li>
-<li>Sharing it on social media like <em>Twitter</em> or <em>Linkedin</em>.</li>
+<li><em>(quarto)</em> Add sidebar navigation to the web</li>
+<li><em>(01-deep-learning-in-practice)</em> Add examples of other tasks unrelated to images</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It can be easy to get lost sometimes. Keep these 3 things in mind: <strong>Focus on your end-goal</strong>, <strong>Continue gaining your understanding in a bite-size by doing things</strong> and <strong>Be tenacious</strong>.</p>
-</div>
-</div>
+</section>
+<section id="bug-fixes" class="level3">
+<h3 class="anchored" data-anchor-id="bug-fixes">🐛 Bug Fixes</h3>
+<ul>
+<li><em>(01-deep-learning-in-practice)</em> Fix error rendering mermaid by adding <code>{}</code> to guide a specific code block</li>
+</ul>
+</section>
+<section id="refactor" class="level3">
+<h3 class="anchored" data-anchor-id="refactor">🚜 Refactor</h3>
+<ul>
+<li><em>(01-deep-learning-in-practice)</em> Run image classifier on <em>Google Colab</em></li>
+<li><em>(quarto)</em> Change <code>mermaid</code> theme to be more visible in dark theme</li>
+</ul>
+</section>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">📚 Documentation</h3>
+<ul>
+<li><em>(README)</em> Add project description</li>
+<li><em>(index)</em> Add lesson 0 as a homepage</li>
+<li><em>(index)</em> Fix heading typo</li>
+<li><em>(01-pretrained-model)</em> Add metadata reference for tables and figures</li>
+<li><em>(01-deep-learning-in-practice)</em> Add introduction</li>
+<li><em>(01-deep-learning-in-practice)</em> Add introduction to machine learning section</li>
+<li><em>(01-deep-learning-in-practice)</em> Add questionaire and solution for chapter1</li>
+<li><em>(dl-in-practice)</em> Update published date</li>
+<li><em>(horapa-vs-kaprao)</em> Add introduction section</li>
+<li><em>(01-deep-learning-in-practice)</em> Add <code>open-in-colab</code> link</li>
+<li><em>(horapa-vs-kaprao)</em> Add <code>open-in-colab</code> link</li>
+</ul>
+</section>
+<section id="testing" class="level3">
+<h3 class="anchored" data-anchor-id="testing">🧪 Testing</h3>
+<ul>
+<li><em>(horapa-vs-kaprao)</em> Test run to collect the models</li>
+</ul>
+</section>
+<section id="miscellaneous-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="miscellaneous-tasks">⚙️ Miscellaneous Tasks</h3>
+<ul>
+<li><em>(publish)</em> Add github workflows</li>
+</ul>
+<!-- generated by git-cliff -->
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -829,15 +813,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./lectures/dl-in-practice/01-pre-trained-model.html" class="pagination-link" aria-label="Is it a bird? — The power of pretrained-model">
-        <span class="nav-page-text">Is it a bird? — The power of pretrained-model</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

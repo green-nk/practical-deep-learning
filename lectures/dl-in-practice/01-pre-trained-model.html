@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -348,7 +348,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>sim <span class="op">=</span> im.to_thumb(<span class="dv">256</span>, <span class="dv">256</span>)</span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>sim</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
-<div id="fig-bird-photo-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center" data-cap-location="bottom">
+<div id="fig-bird-photo-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-cap-location="bottom" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bird-photo-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="01-pre-trained-model_files/figure-html/fig-bird-photo-example-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
@@ -377,7 +377,7 @@ Figure&nbsp;1: Example of a bird photo
 <pre data-cap-location="bottom"><code>Searching for 'forest photos' ...</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="8">
-<div id="fig-forest-photo-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center" data-cap-location="bottom">
+<div id="fig-forest-photo-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-cap-location="bottom" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-forest-photo-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="01-pre-trained-model_files/figure-html/fig-forest-photo-example-output-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
@@ -443,7 +443,7 @@ Searching for 'bird shade photo' ...</code></pre>
 <span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>dls.show_batch(max_n<span class="op">=</span><span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="fig-batch-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center" data-cap-location="bottom">
+<div id="fig-batch-example" class="quarto-figure quarto-figure-center quarto-float anchored" data-cap-location="bottom" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-batch-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="01-pre-trained-model_files/figure-html/fig-batch-example-output-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
@@ -475,7 +475,7 @@ Figure&nbsp;3: Example of images in a batch
 <pre><code>Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
 100%|██████████| 44.7M/44.7M [00:00&lt;00:00, 123MB/s]</code></pre>
 </div>
-<div id="tbl-fine-tuning-results" class="cell quarto-float anchored" data-execution_count="12" data-outputid="6283c224-7037-4a3b-e13f-cae54b520104" data-execution="{&quot;iopub.execute_input&quot;:&quot;2022-08-15T20:19:19.954102Z&quot;,&quot;iopub.status.busy&quot;:&quot;2022-08-15T20:19:19.95376Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-08-15T20:19:28.933948Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-08-15T20:19:28.933106Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-08-15T20:19:19.954048Z&quot;}" data-trusted="true">
+<div id="tbl-fine-tuning-results" class="cell quarto-float anchored" data-execution="{&quot;iopub.execute_input&quot;:&quot;2022-08-15T20:19:19.954102Z&quot;,&quot;iopub.status.busy&quot;:&quot;2022-08-15T20:19:19.95376Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-08-15T20:19:28.933948Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-08-15T20:19:28.933106Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-08-15T20:19:19.954048Z&quot;}" data-outputid="6283c224-7037-4a3b-e13f-cae54b520104" data-trusted="true" data-execution_count="12">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-fine-tuning-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Fine Tuning Results
@@ -861,6 +861,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/green-nk\.github\.io\/practical-deep-learning\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -895,7 +913,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
