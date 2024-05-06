@@ -20,6 +20,7 @@ website:
       - section: "Projects"
         contents:
           - projects/horapa-vs-kaprao.ipynb
+      - CHANGELOG.md
     tools:
       - icon: github
         href: https://github.com/green-nk/practical-deep-learning
