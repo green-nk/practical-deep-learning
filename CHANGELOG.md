@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2024-05-06
+
+### 🚜 Refactor
+
+- *(quarto)* Add `CHANGELOG` to a page
+
+### 📚 Documentation
+
+- *(01-deep-learning-in-practice)* Update computer vision tasks
+
+### ⚙️ Miscellaneous Tasks
+
+- *(.gitignore)* Ignore git-cliff configuration file
+
 ## [0.0.1] - 2024-03-04
 
 ### 🚀 Features
