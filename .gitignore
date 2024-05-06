@@ -4,3 +4,6 @@ _backup
 # Quarto
 /.quarto/
 /_site/
+
+# Configurationo files
+.cliffignore
